@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lesson.css" />
+  </head>
+  <body>
+    <!-- <div class="wrapper"> -->
+    <nav class="nav">
+      <div class="nav-logo">
+        <a href="lodsv2.html">Team.LODS</a>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="lodsv2.html" class="link">Home</a></li>
+          <li><a href="lesson.html" class="link">Lessons</a></li>
+          <li><a href="questions.html" class="link">Learn</a></li>
+          <li><a href="about-us.html" class="link">About</a></li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="contact-us" id="loginBtn">
+          <a href="contact-us.html">Contact Us ➤</a>
+        </button>
+      </div>
+    </nav>
+
+    <div class="tittle">
+      <h1>Computer Network Archeticture</h1>
+      <h2>Fundamentals of Network</h2>
+    </div>
+
+    <fieldset>
+      <legend>Internet & Intranet</legend>
+
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="intranet.jpg" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Intranet</h1>
+          <p>
+            An intranet is a private network that is contained within an
+            enterprise. It may consist of many interlinked local area networks
+            and also use leased lines in the wide area network. It is a private
+            version of the Internet.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="internet.jpg" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Internet</h1>
+          <p>
+            Interconnection of Networks: Internetwork is a worldwide system of
+            computer networks - a network of networks in which users at any one
+            computer can, if they have permission, get information from any
+            other computer (and sometimes talk directly to users at other
+            computers)
+          </p>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Data Flow</legend>
+
+      <div class="topic-sec">
+        <div class="text-section">
+          <h1>Simplex</h1>
+          <p>
+            In simplex mode, the communication is unidirectional, as on a
+            one-way street. Only one of the two devices on a link can transmit;
+            the other can only receive. For example, Keyboards.
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="simplex.gif" alt="Image Description" />
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="text-section">
+          <h1>Half -Duplex</h1>
+          <p>
+            With half-duplex, communications happen in both directions, but in
+            only one direction at a time. When two computers communicate using
+            half-duplex, one computer sends a signal and the other receives;
+            then, at some point, they switch sending and receiving roles. For
+            example, push-to-talk technology (walkie-talkie).
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="half.gif" alt="Image Description" />
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="text-section">
+          <h1>Full-duplex</h1>
+          <p>
+            Full-duplex allows communication in both directions simultaneously.
+            Both stations can send and receive signals at the same time.
+            Full-duplex communications are similar to a telephone call, in which
+            both people can talk simultaneously.
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="full.gif" alt="Image Description" />
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Server, Workstation, & Client</legend>
+
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="server.jpg" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Server</h1>
+          <p>
+            A core component of the network, It provides resources to the
+            clients on the network (―serves‖ them, in other words). Servers are
+            typically powerful computers that run the software that controls and
+            maintains the network. This software is known as the network
+            operating system.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="client.jpg" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Client</h1>
+          <p>
+            A client is any network entity that can request resources from the
+            network. Client computers also depends primarily on the central
+            server for processing activities.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="workstation.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Workstation</h1>
+          <p>
+            Normally refers to any computer that is connected to the network and
+            used by an individual to do work.
+          </p>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Network Archeticture</legend>
+
+      <h3 class="intro-text">
+        - As discuss previous, the purpose of networking is to share resources,
+        but we don't know how this is accomplished? -This depends on the
+        architecture of the network operating system software. The two most
+        common network types are peer-to-peer and client/server.
+      </h3>
+      <hr />
+      <div class="topic-sec">
+        <div class="text-section">
+          <h1>Peer-to-Peer Architecture</h1>
+          <p>
+            In peer-to-peer networks, the connected computers have no
+            centralized authority. From an authority viewpoint, all of these
+            computers are equal. Each computer in a peer-to-peer network can be
+            both a client that requests resources and a server that provides
+            resources. There is no assigned role for any particular device, and
+            each of the devices usually runs similar software.
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="p2p.png" alt="Image Description" />
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="text-section">
+          <h1>Client/Server Architecture</h1>
+          <p>
+            In this design, a client/server network uses a network operating
+            system designed to manage the entire network from a centralized
+            point, which is the server. Clients make requests of the server, and
+            the server responds with the information or access to a resource.
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="cs.png" alt="Image Description" />
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Network Topology</legend>
+
+      <h3 class="intro-text">
+        - A topology is basically a map of a network. The physical topology of a
+        network describes the layout of the cables and workstations and the
+        location of all network components. Topologies can be either physical or
+        logical.
+      </h3>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="mesh.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Mesh Topology</h1>
+          <p>
+            In mesh topology each device is connected to every other device on
+            the network through a dedicated point-to-point link. When we say
+            dedicated it means that the link only carries data for the two
+            connected devices only. Lets say we have n devices in the network
+            then each device must be connected with (n-1) devices of the
+            network. Number of links in a mesh topology of n devices would be
+            n(n-1)/2.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="star.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Star Topology</h1>
+          <p>
+            In star topology each device in the network is connected to a
+            central device called hub. Unlike Mesh topology, star topology
+            doesn’t allow direct communication between devices, a device must
+            have to communicate through hub.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="bus.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Bus Topology</h1>
+          <p>
+            In bus topology there is a main cable and all the devices are
+            connected to this main cable through drop lines. There is a device
+            called tap that connects the drop line to the main cable. Since all
+            the data is transmitted over the main cable, there is a limit of
+            drop lines and the distance a main cable can have.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="ring.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Ring Topology</h1>
+          <p>
+            In ring topology each device is connected with the two devices on
+            either side of it. There are two dedicated point to point links a
+            device has with the devices on the either side of it. This structure
+            forms a ring thus it is known as ring topology.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="hybrid.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Hybrid topology</h1>
+          <p>
+            A combination of two or more topology is known as hybrid topology.
+            For example a combination of star and bus topology is known as star
+            bus hybrid topology, this topology is shown in the above diagram.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="tree.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>Tree topology</h1>
+          <p>
+            The devices are connected to each other in hierarchical manner. Each
+            node has arbitrary number of child nodes. The device at the top of
+            the hierarchy is known as root node and other devices that are lower
+            in hierarchy known as descendants of the root node.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="topic-sec">
+        <div class="image-section">
+          <img src="p2pt.png" alt="Image Description" />
+        </div>
+        <div class="text-section">
+          <h1>P2P (Peer to Peer) Topolog</h1>
+          <p>
+            In Peer to Peer topology, two devices are connected to each other
+            directly. There is no client and server in P2P topology as both the
+            devices serve the purpose of client and server both. Torrent is an
+            example of P2P topology as one computer can download the data as
+            well as upload the data to another computer.
+          </p>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="source-link">
+      <h3>Source Links:</h3>
+      <a
+        href="https://www.uobabylon.edu.iq/eprints/publication_12_22267_1450.pdf?fbclid=IwZXh0bgNhZW0CMTAAAR2Yq6Arf7uSRG3crq7tuwIz9BroZPQ99py0nCRdK-_Xwuwp7j0N_tQ3Koo_aem_Aak7poYaU6PQNhb7VHBAT1h_XiTe2WVRpU1LCcZ2_p3LhbGDZtjW-XY6WzZnObi5opaYWYRN5ebYobWQxbfCtYIy"
+        >Internet & Intranet</a
+      >
+      <a
+        href="https://www.uobabylon.edu.iq/eprints/publication_12_22267_1450.pdf?fbclid=IwZXh0bgNhZW0CMTAAAR2Yq6Arf7uSRG3crq7tuwIz9BroZPQ99py0nCRdK-_Xwuwp7j0N_tQ3Koo_aem_Aak7poYaU6PQNhb7VHBAT1h_XiTe2WVRpU1LCcZ2_p3LhbGDZtjW-XY6WzZnObi5opaYWYRN5ebYobWQxbfCtYIy"
+        >Data Flow</a
+      >
+      <a
+        href="https://www.uobabylon.edu.iq/eprints/publication_12_22267_1450.pdf?fbclid=IwZXh0bgNhZW0CMTAAAR2Yq6Arf7uSRG3crq7tuwIz9BroZPQ99py0nCRdK-_Xwuwp7j0N_tQ3Koo_aem_Aak7poYaU6PQNhb7VHBAT1h_XiTe2WVRpU1LCcZ2_p3LhbGDZtjW-XY6WzZnObi5opaYWYRN5ebYobWQxbfCtYIy"
+        >Server, Workstation, & Client</a
+      >
+      <a
+        href="https://www.uobabylon.edu.iq/eprints/publication_12_22267_1450.pdf?fbclid=IwZXh0bgNhZW0CMTAAAR2Yq6Arf7uSRG3crq7tuwIz9BroZPQ99py0nCRdK-_Xwuwp7j0N_tQ3Koo_aem_Aak7poYaU6PQNhb7VHBAT1h_XiTe2WVRpU1LCcZ2_p3LhbGDZtjW-XY6WzZnObi5opaYWYRN5ebYobWQxbfCtYIy"
+        >Network Archeticture</a
+      >
+      <a
+        href="https://beginnersbook.com/2019/03/computer-network-topology-mesh-star-bus-ring-and-hybrid/"
+        >Topology</a
+      >
+    </fieldset>
+
+    <footer>
+      <div class="footer-content">
+        <h3>Team LODS</h3>
+
+        <ul class="socials">
+          <li>
+            <a href="#"><img src="fb.png" alt="Facebook Icon" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="twitter.png" alt="Twitter Icon" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="google.png" alt="Google Plus Icon" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>Created by &copy; Team LODS. Designed by <span>Yunsal, F</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
